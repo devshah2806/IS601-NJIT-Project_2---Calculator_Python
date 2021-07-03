@@ -16,6 +16,21 @@ def subtraction(a, b):
     return c
 
 
+def multiplication(a, b):
+    a = int(a)
+    b = int(b)
+    c = a * b
+    return c
+
+
+def division(a, b):
+    if b != 0:
+        c = a / b
+        return c
+    else:
+        return print('Denominator cannot be Zero')
+
+
 class Calculator:
     result = 0
 
@@ -28,6 +43,14 @@ class Calculator:
 
     def subtract(self, a, b):
         self.result = subtraction(a, b)
+        return self.result
+
+    def multiply(self, a, b):
+        self.result = multiplication(a, b)
+        return self.result
+
+    def division(self, a, b):
+        self.result = division(a, b)
         return self.result
 
 
