@@ -1,9 +1,16 @@
+from CsvReader import CsvReader
+
+
 def addition(a, b):
-    return a + b
+    c = a + b
+    return c
 
 
 def subtraction(a, b):
-    return a - b
+    a = int(a)
+    b = int(b)
+    c = b - a
+    return c
 
 
 class Calculator:
@@ -19,3 +26,11 @@ class Calculator:
     def subtract(self, a, b):
         self.result = subtraction(a, b)
         return self.result
+
+
+class CSVStats(Calculator):
+    data = []
+
+    def __init__(self, data_file):
+        self.data = CsvReader(data_file)
+        pass
