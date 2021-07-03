@@ -33,6 +33,12 @@ def division(a, b):
         return print('Denominator cannot be Zero')
 
 
+def squares(a):
+    a = int(a)
+    c = a * a
+    return c
+
+
 class Calculator:
     result = 0
 
@@ -53,6 +59,10 @@ class Calculator:
 
     def divide(self, a, b):
         self.result = division(a, b)
+        return self.result
+
+    def square(self, a):
+        self.result = squares(a)
         return self.result
 
 
