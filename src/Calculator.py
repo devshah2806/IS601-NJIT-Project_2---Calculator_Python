@@ -24,9 +24,11 @@ def multiplication(a, b):
 
 
 def division(a, b):
+    a = int(a)
+    b = int(b)
     if b != 0:
-        c = a / b
-        return c
+        c = b / a
+        return round(c, 9)
     else:
         return print('Denominator cannot be Zero')
 
@@ -49,7 +51,7 @@ class Calculator:
         self.result = multiplication(a, b)
         return self.result
 
-    def division(self, a, b):
+    def divide(self, a, b):
         self.result = division(a, b)
         return self.result
 
