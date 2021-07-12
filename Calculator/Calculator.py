@@ -1,4 +1,8 @@
-import math
+from Calculator.Division import division
+from Calculator.Multiplication import multiplication
+from Calculator.Squares import squares
+from Calculator.SquaresRoot import SquaresRoot
+from Calculator.Subtraction import subtraction
 from CsvReader import CsvReader
 from Calculator.Addition import addition
 
@@ -38,5 +42,5 @@ class CSVStats(Calculator):
     data = []
 
     def __init__(self, data_file):
-        self.data = CsvReader(data_file)
-        pass
+        super().__init__()
+        self.data = CsvReader.CsvReader(data_file)
