@@ -1,48 +1,6 @@
 import math
 from CsvReader import CsvReader
-
-
-def addition(a, b):
-    a = int(a)
-    b = int(b)
-    c = a + b
-    return c
-
-
-def subtraction(a, b):
-    a = int(a)
-    b = int(b)
-    c = b - a
-    return c
-
-
-def multiplication(a, b):
-    a = int(a)
-    b = int(b)
-    c = a * b
-    return c
-
-
-def division(a, b):
-    a = int(a)
-    b = int(b)
-    if b != 0:
-        c = b / a
-        return round(c, 9)
-    else:
-        return print('Denominator cannot be Zero')
-
-
-def squares(a):
-    a = int(a)
-    c = a * a
-    return c
-
-
-def SquaresRoot(a):
-    a = int(a)
-    c = math.sqrt(a)
-    return round(float(c), 8)
+from Calculator.Addition import addition
 
 
 class Calculator:
