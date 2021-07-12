@@ -22,3 +22,6 @@ class TestCase(unittest.TestCase):
 
     def test_mean(self):
         self.assertEqual(self.statistics.mean(self.int_randomData), pystats.mean(self.int_randomData))
+
+    def test_median(self):
+        self.assertEqual(self.statistics.median(self.int_randomData), pystats.median(self.int_randomData))
