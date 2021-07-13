@@ -2,6 +2,7 @@ from Calculator.Calculator import Calculator
 from Statistics.Mean import mean
 from Statistics.Median import median
 from Statistics.Mode import mode
+from Statistics.StandardDeviation import sd
 
 
 class Statistics(Calculator):
@@ -20,4 +21,8 @@ class Statistics(Calculator):
 
     def mode(self, data):
         self.result = mode(data)
+        return self.result
+
+    def sd(self, data):
+        self.result = sd(data)
         return self.result

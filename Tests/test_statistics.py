@@ -28,3 +28,8 @@ class TestCase(unittest.TestCase):
 
     def test_mode(self):
         self.assertEqual(self.statistics.mode(self.int_randomData), pystats.mode(self.int_randomData))
+
+    def test_sd(self):
+        self.assertEqual(self.statistics.sd(self.int_randomData), int(pystats.stdev(self.int_randomData)))
+
+    
