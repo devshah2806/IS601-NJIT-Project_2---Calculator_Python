@@ -7,11 +7,13 @@ from Statistics.Mean import mean
 
 
 def sd(a):
-    total = 0
+    try:
+        total = 0
+        Mean = mean(a)
+        for val in a:
+            total = addition(squares(subtraction(Mean, val)), total)
+            result = SquaresRoot(division(len(a), total))
+        return int(result)
 
-    Mean = mean(a)
-    for val in a:
-        total = addition(squares(subtraction(Mean, val)), total)
-
-    result = SquaresRoot(division(len(a), total))
-    return int(result)
+    except IndexError or ValueError:
+        return None
