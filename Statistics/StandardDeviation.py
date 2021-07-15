@@ -14,6 +14,10 @@ def sd(a):
             total = addition(squares(subtraction(Mean, val)), total)
             result = SquaresRoot(division(len(a), total))
         return int(result)
+    except ZeroDivisionError:
 
-    except IndexError or ValueError:
-        return None
+        print("Error: Cannot Divide by 0")
+
+    except ValueError:
+
+        print("Check your Data Input")

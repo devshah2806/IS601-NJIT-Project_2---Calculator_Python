@@ -9,6 +9,10 @@ def mode(mode_list):
         get_mode = dict(data)
         mode_l = [k for k, v in get_mode.items() if v == max(list(data.values()))]
         return mode_l
+    except ZeroDivisionError:
 
-    except IndexError or ValueError:
-        return None
+        print("Error: Cannot Divide by 0")
+
+    except ValueError:
+
+        print("Check your Data Input")
