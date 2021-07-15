@@ -46,12 +46,12 @@ Calculator using Python that has automated unit tests.
     *  Statistics.py 
   * **Tests**
     *  Data
-      * Addition.csv
-      * Subtraction.csv
-      * Division.csv
-      * Multiplication.csv
-      * Squares.csv
-      * SquaresRoot.csv
+       * Addition.csv
+       * Subtraction.csv
+       * Division.csv
+       * Multiplication.csv
+       * Squares.csv
+       * SquaresRoot.csv
     * Test_Calculator.py (Test Cases for Basic Calculations)
     * Test_Statistics.py (Test Cases for Statistical Functions)   
 
