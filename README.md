@@ -21,7 +21,7 @@ Calculator using Python that has automated unit tests.
   * Object Attributes/ Properties
   * Random Generators
 
-****Successfuly ran the program: ****
+### **Successfuly ran the program: **
 * ![Successfuly ran the program](https://github.com/devshah2806/calculator_python/blob/master/Image/Project_2_program.PNG "Screenshot")
-****Successfuly ran travis: ****
+### **Successfuly ran travis: **
 * ![Successfuly ran the program](https://github.com/devshah2806/calculator_python/blob/master/Image/Project_2_travis.PNG "Screenshot")
