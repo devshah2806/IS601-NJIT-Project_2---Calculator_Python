@@ -44,6 +44,7 @@ Calculator using Python that has automated unit tests.
     *  Variance.py
     *  Randomly.py ( Methods to Generate random Integers & Decimals )
     *  Statistics.py 
+   
   * **Tests**
     *  Data
        * Addition.csv
