@@ -1,21 +1,25 @@
 # calculator_python
 
 Calculator using Python that has automated unit tests.
-* Calculator will perform,
+* Basic Calculation,
   * Addition
   * Subtraction
   * Multiplication
   * Division
   * Squares
   * Square Root
+* Statistical Functions,
+  * Mean
+  * Median
+  * Mode
+  * Standard Deviation
+  * Variance
+
 * Using correct
   * Static Methods
   * Object Methods
   * Object Attributes/ Properties
-
-It includes 7 Test Cases, each arithmetic operatons has sperate test case.
-It checks cases for each arithmetic operations from csv files. 
-
+  * Random Generators
 
 **Successfuly ran the program: **
 * ![Successfuly ran the program](https://github.com/devshah2806/calculator_python/blob/master/Image/Project_1.PNG "Screenshot")
