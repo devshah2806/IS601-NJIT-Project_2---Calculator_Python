@@ -22,4 +22,6 @@ Calculator using Python that has automated unit tests.
   * Random Generators
 
 **Successfuly ran the program: **
-* ![Successfuly ran the program](https://github.com/devshah2806/calculator_python/blob/master/Image/Project_1.PNG "Screenshot")
+* ![Successfuly ran the program](https://github.com/devshah2806/calculator_python/blob/master/Image/Project_2_program.PNG "Screenshot")
+**Successfuly ran travis: **
+* ![Successfuly ran the program](https://github.com/devshah2806/calculator_python/blob/master/Image/Project_2_travis.PNG "Screenshot")
