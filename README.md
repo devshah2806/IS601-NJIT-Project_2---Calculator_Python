@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/devshah2806/calculator_python.svg?branch=master)](https://travis-ci.com/devshah2806/calculator_python)
 # calculator_python
 
 Calculator using Python that has automated unit tests.
